@@ -9,11 +9,11 @@ namespace adventOfCode.Days
         public static void Main()
         {
             // Test Part one against example and find number
-            PartOne("testInput.txt");
-            PartOne("input.txt");
+            WriteLine(PartOne("testInput.txt"));
+            WriteLine(PartOne("input.txt"));
             // Test Part Two against example and find number
-            PartTwo("testInput.txt");
-            PartTwo("input.txt");
+            WriteLine(PartTwo("testInput.txt"));
+            WriteLine(PartTwo("input.txt"));
 
         }
 
@@ -43,7 +43,6 @@ namespace adventOfCode.Days
                 }
             }
             int result = horizontalPos * depth;
-            WriteLine($"Part One result: {result}");
             return result;
         }
 
@@ -75,9 +74,7 @@ namespace adventOfCode.Days
             }
 
             int result = horizontalPos * depth;
-            WriteLine($"Part Two result: {result}");
             return result;
-
         }
     }
 }
