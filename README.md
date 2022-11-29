@@ -7,6 +7,7 @@ fancy scores, but will generally try to write good code. If you see
 any bad practices, then feel free to reach out and mention those to me.
 
 My ambitions for each year are:
+
 - Attempt to solve the puzzle the day it is posted.
 - Use a maximum of 1 hour per day on each puzzle, except on weekends.
 
@@ -18,4 +19,10 @@ do not over-engineer solutions nor waste too much time of my weekdays.
 My chosen language of 2021 was C#.
 
 I failed to really get into the challenges before the mid of the month,
-where my motion to actively try had detoriated significantly.
+where my motion to actively try had deteriorated significantly.
+
+## 2022
+
+My chosen language of 2022 is Python.
+
+My ambitions remain the overall ones, and I prefer to be finished with the puzzle before noon each day for my local time (UTC+01:00)
