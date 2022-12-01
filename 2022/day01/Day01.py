@@ -1,9 +1,8 @@
 import os
-import io
 
 def max_calories(input_file,elves_amount):
     total = [0]
-    with io.open(input_file,"r") as input:
+    with open(input_file,"r") as input:
         for line in input:
             if line in os.linesep:
                 total.append(0)                
