@@ -32,5 +32,3 @@ It started off decent, but I quickly got too busy with studies to continue. For 
 My chosen language of 2023 is Haskell.
 
 I have for a long time wanted to delve more into Haskell, and so I am going to practice it alongisde doing Advent of Code.
-It might crash and burn, or I might find new appreciation for the language, but seeing how it will be a very relevant for
-a course I'm going to take in February, I saw it as an excellent excuse to use it more.
