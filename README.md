@@ -37,3 +37,8 @@ I have for a long time wanted to delve more into Haskell, and so I am going to p
 
 My chosen language of 2025 is Rust.
 
+| Day | Time (part 1) | Time (part 2) |
+| --- | ------------- | ------------- |
+| [1](2025/day01/src/main.rs) | 3.340542ms | 2.1415ms |
+| [2](2025/day02/src/main.rs) | 185.548583ms | 806.102792ms |
+
