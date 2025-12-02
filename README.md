@@ -32,3 +32,8 @@ It started off decent, but I quickly got too busy with studies to continue. For 
 My chosen language of 2023 is Haskell.
 
 I have for a long time wanted to delve more into Haskell, and so I am going to practice it alongisde doing Advent of Code.
+
+## 2025
+
+My chosen language of 2025 is Rust.
+
