@@ -25,3 +25,25 @@ Solution for second part is a bit too brute-force for my liking, but I'm new to 
 I found `flat_map` and used it to expand the inputs `(start, end)` as it seemed an efficient way to work over the data.
 
 I then filter the result over the conditions I needed, before summing the result.
+
+## Day 03
+
+I spent almost two hours on it, so I broke with my own rule, but it was really fun to finally find a way to use monotonic stacks.
+
+I first read about them in [Introduction to Monotonic Stack](https://www.geeksforgeeks.org/dsa/introduction-to-monotonic-stack-2/),
+and was convinced to use them after reading [How to Identify and Solve Monotonic Stack Problems ?](https://www.geeksforgeeks.org/dsa/how-to-identify-and-solve-monotonic-stack-problems/).
+
+Input this time was quite simple, but I decided to really try my best to optimize it, and have recently worked with bytes, so I opted to work around those.
+I had not worked around those in Rust before, so I read up on them[1,2].
+
+Popping and pushing is covered well in the documentation[3], and after being stuck for quite a while, I found why `truncate` was necessary[4].
+
+Finding out how references and pointers worked in Rust also took me through the Rust Book, which is really even better than I remembered it.
+
+Overall, I don't think I can do much better than my monotonic approach, as I calculated it to be *O(n)*, while my first idea of brute forcing all possibilities would be exponentially worse.
+
+[1] [Primitive Type u8](https://doc.rust-lang.org/std/primitive.u8.html)
+[2] [Function from_utf8](https://doc.rust-lang.org/std/str/fn.from_utf8.html)
+[3] [Struct Vec](https://doc.rust-lang.org/std/vec/struct.Vec.html)
+[4] [truncate](https://doc.rust-lang.org/std/vec/struct.Vec.html#method.truncate)
+

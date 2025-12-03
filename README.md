@@ -43,6 +43,8 @@ My chosen language of 2025 is Rust.
 |:----------------------------|:-----------------|:-----------------|
 | [1](2025/day01/src/main.rs) | 3.340542ms       | 2.141500ms       |
 | [2](2025/day02/src/main.rs) | 185.548583ms     | 806.102792ms     |
+| [3](2025/day03/src/main.rs) | 3.910500ms       | 1.737917ms       |
 <!-- END CSV TABLE -->
+
 
 ![Solution runtimes per day](tools/plot.png) 
