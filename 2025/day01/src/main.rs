@@ -57,28 +57,27 @@ fn p2(input: &str) -> isize {
 
 fn main() {
     let now = Instant::now();
-    let solution = p1(INPUT);
-    println!("p1: {:?} {}", now.elapsed(), solution);
+    println!("p1: {:?} {}", now.elapsed(), p1(INPUT));
 
     let now = Instant::now();
-    let solution = p2(INPUT);
-    println!("p2: {:?} {}", now.elapsed(), solution);
+    println!("p2: {:?} {}", now.elapsed(), p2(INPUT));
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
 
+    const TEST_INPUT: &str =
+"L68\nL30\nR48\nL5\nR60\nL55\nL1\nL99\nR14\nL82";
+    
     #[test]
     fn test_p1() {
-        let input = "L68\nL30\nR48\nL5\nR60\nL55\nL1\nL99\nR14\nL82";
-        assert_eq!(p1(input), 3);
+        assert_eq!(p1(TEST_INPUT), 3);
     }
 
     #[test]
     fn test_p2() {
-        let input = "L68\nL30\nR48\nL5\nR60\nL55\nL1\nL99\nR14\nL82";
-        assert_eq!(p2(input), 6);
+        assert_eq!(p2(TEST_INPUT), 6);
     }
 
 }
