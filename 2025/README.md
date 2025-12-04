@@ -47,3 +47,8 @@ Overall, I don't think I can do much better than my monotonic approach, as I cal
 [3] [Struct Vec](https://doc.rust-lang.org/std/vec/struct.Vec.html)
 [4] [truncate](https://doc.rust-lang.org/std/vec/struct.Vec.html#method.truncate)
 
+## Day 04
+
+The day I somehow failed to provide a meaningful benchmark for my code, as it ran in nanoseconds as opposed to my measuring microseconds as the comparison.
+
+First draft solution was very ugly and incredibly nested, but just moving some of the stuff into general functions and cutting down on the times I copied string inputs really cut down the execution time.
