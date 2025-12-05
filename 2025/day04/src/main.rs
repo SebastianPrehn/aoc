@@ -72,10 +72,14 @@ fn p2(input: &str) -> usize {
 
 fn main() {
     let now = Instant::now();
-    println!("p1: {:.6} ms {}", now.elapsed().as_secs_f64() * 1000.0, p1(INPUT));
+    let solution = p1(INPUT);
+    let elapsed = now.elapsed();
+    println!("p1: {:?} {}", elapsed, solution);
 
     let now = Instant::now();
-    println!("p2: {:.6} ms {}", now.elapsed().as_secs_f64() * 1000.0, p2(INPUT));
+    let solution = p2(INPUT);
+    let elapsed = now.elapsed();
+    println!("p2: {:?} {}", elapsed, solution);
 }
 
 #[cfg(test)]
