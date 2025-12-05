@@ -33,29 +33,35 @@ fn p2(input: &str) -> u64 {
 
 fn main() {
     let now = Instant::now();
-    println!("p1: {:?} {}", now.elapsed(), p1(INPUT));
+    let solution = p1(INPUT);
+    println!("p1: {:?} {}", now.elapsed(), solution);
 
     let now = Instant::now();
-    println!("p2: {:?} {}", now.elapsed(), p2(INPUT));
+    let solution = p2(INPUT);
+    println!("p2: {:?} {}", now.elapsed(), solution);
 }
 
 #[cfg(test)]
 mod tests {
     use  super::*;
 
-    const TEST_INPUT: &str =
-"987654321111111
+    #[test]
+    fn test_p1() {
+        let input =
+            "987654321111111
 811111111111119
 234234234234278
 818181911112111";
-
-    #[test]
-    fn test_p1() {
-        assert_eq!(p1(TEST_INPUT), 357);
+        assert_eq!(p1(input), 357);
     }
 
     #[test]
     fn test_p2() {
-        assert_eq!(p2(TEST_INPUT), 3121910778619);
+        let input =
+            "987654321111111
+811111111111119
+234234234234278
+818181911112111";
+        assert_eq!(p2(input), 3121910778619);
    }
 }
