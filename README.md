@@ -48,4 +48,6 @@ My chosen language of 2025 is Rust.
 <!-- END CSV TABLE -->
 
 
-![Solution runtimes per day](tools/plot.png) 
+![Solution runtimes per day](tools/plot_line.png) 
+
+![Solution runtimes in grouped bar per day](tools/plot_bars.png)

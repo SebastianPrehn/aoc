@@ -13,7 +13,7 @@ install: $(VENV)/bin/python
 	$(PIP) install pandas matplotlib tabulate
 
 plot:
-	$(PYTHON) runtime_plot.py $(CSV) $(OUTPUT)
+	$(PYTHON) runtime_plot.py $(CSV) $(OUTPUT) all
 
 table:
 	$(PYTHON) runtime_table.py $(CSV)
