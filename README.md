@@ -45,6 +45,7 @@ My chosen language of 2025 is Rust.
 | [2](2025/day02/src/main.rs) | 185.548583ms     | 806.102792ms     |
 | [3](2025/day03/src/main.rs) | 3.910500ms       | 1.737917ms       |
 | [4](2025/day04/src/main.rs) | 5.953292ms       | 95.027167ms      |
+| [5](2025/day05/src/main.rs) | 3.412541ms       | 0.899959ms       |
 <!-- END CSV TABLE -->
 
 
